@@ -1,0 +1,20 @@
+header {
+    display: flexbox;
+    width: 75px;
+    height: 100%;
+}
+
+.monogram {
+    border: 2px;
+    border-style: double;
+    border-color: black;
+    color: blue;
+}
+
+.sidebar {
+    list-style-type: none;
+}
+
+body {
+    background-color: #67b816;
+}
