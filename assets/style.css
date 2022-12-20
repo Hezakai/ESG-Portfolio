@@ -1,20 +1,33 @@
+:root {
+    --dark: rgb(0, 0, 133);
+    --mid: rgb(0, 0, 255);
+    --light: rgb(133, 182, 255);
+}
+
 header {
     display: flexbox;
-    width: 75px;
+    width: 50px;
     height: 100%;
+}
+
+body {
+    background-color: var(--mid);
 }
 
 .monogram {
     border: 2px;
     border-style: double;
-    border-color: black;
-    color: blue;
+    border-color: var(--light);
+    color: var(--light);
 }
 
 .sidebar {
     list-style-type: none;
 }
 
-body {
-    background-color: #67b816;
+.sideLink {
+    border: 2px;
+    border-style: double;
+    border-color: var(--light);
+    color: var(--light);
 }
