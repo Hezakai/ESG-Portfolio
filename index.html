@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <title>Eric Graves</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-  </head>
+<head>
+  <title>Eric Graves</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
 
-  <body>
-
+<body>
+  <section class="content">
     <header>
       <div class="monogram">
-        <h1>ESG</h1>
+        <h1><a href="#top">ESG</a></h1>
       </div>
       <ul class="sidebar">
-        <li><a class="work1SL" href="">Work 1</a></li>
-        <li><a class="work1SL"href="">Work 2</a></li>
-        <li><a class="work1SL"href="">Work 3</a></li>
-        <li><a class="work1SL"href="">Contact</a></li>
+        <li class="sideLink"><a href="#work1">Work 1</a></li>
+        <li class="sideLink"><a href="#work2">Work 2</a></li>
+        <li class="sideLink"><a href="#work3">Work 3</a></li>
+        <li class="sideLink"><a href="#cont">Contact</a></li>
       </ul>
     </header>
-
     <main>
-      <section class="blurb">
-        <img src="assets/images/guy.PNG" alt="smiling man giving thumbs up sign">
-        <h1>Hi!  I'm Eric.</h1>
-        <h3>Here's a breif blurb about me</h3>
+      <section id="top" class="panel">
+        <img id="selfie" src="assets/images/guy.PNG" alt="smiling man giving thumbs up sign">
+        <div class="tBox">
+          <h1>Hi!</h1>
+          <h2>I'm Eric.</h2>
+          <h3>I'm a Junior Full Stack Developer on a journey of learning.</h3>
+        </div>
       </section>
-      <section class="work1">
-        <img src="assets/images/work1.png" alt="smiling man giving thumbs up sign">
-        <h1>Work 1 Title</h1>
-        <h3>brief description</h3>
+      <section id="work1" class="panel">
+        <img id="selfie" src="assets/images/work1.png" alt="smiling man giving thumbs up sign">
+        <div class="tBox">
+          <h1>Work 1</h1>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+        </div>
       </section>
-      <section class="work2">
-        <img src="assets/images/work2.jpg" alt="smiling man giving thumbs up sign">
-        <h1>Work 2 Title</h1>
-        <h3>brief description</h3>
-        <section class="work3">
-          <img src="assets/images/work3.png" alt="smiling man giving thumbs up sign">
-          <h1>Work 3 Title</h1>
-          <h3>brief description</h3>
+      <section id="work2" class="panel">
+        <img id="selfie" src="assets/images/work2.jpg" alt="smiling man giving thumbs up sign">
+        <div class="tBox">
+          <h1>Work 2</h1>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+        </div>
       </section>
-      <section class="Contact">
-        <ul class="conList">
-          <li><a href="">1.234.567.8910</a></li>
-          <li><a href="">email@address.com</a></li>
-          <li><a href="">LinkedIn</a></li>
-          <li><a href="">Twitter</a></li>
-        </ul>
-    </section>
+      <section id="work3" class="panel">
+        <img id="selfie" src="assets/images/work3.png" alt="smiling man giving thumbs up sign">
+        <div class="tBox">
+          <h1>Work 3</h1>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+        </div>
+      </section>
+        <section id="cont" class="panel">
+          <ul class="conList">
+            <li class="conLink"><a href="">1.234.567.8910</a></li>
+            <li class="conLink"><a href="">email@address.com</a></li>
+            <li class="conLink"><a href="">GitHub</a></li>
+            <li class="conLink"><a href="">LinkedIn</a></li>
+          </ul>
+      </section>
 
     </main>
+  </section>
+  <footer>
+  </footer>
 
-    <footer>
-    </footer>
+</body>
 
-  </body>
 </html>

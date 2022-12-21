@@ -1,33 +1,130 @@
 :root {
     --dark: rgb(0, 0, 133);
     --mid: rgb(0, 0, 255);
-    --light: rgb(133, 182, 255);
+    --light: rgb(206, 227, 255);
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: var(--light);
+    text-decoration: none; 
+  }
+  
+
 header {
-    display: flexbox;
-    width: 50px;
+    display: flex;
+    position: absolute;
+    width: 100px;
     height: 100%;
+    flex-direction: column;
 }
 
 body {
-    background-color: var(--mid);
+    background: rgb(0,129,255);
+    background: radial-gradient(circle, rgb(107, 163, 255) 0%, rgb(6, 0, 97) 100%);
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+    display: flex;
+    height: 100%;
 }
 
 .monogram {
-    border: 2px;
+    position: fixed;
+    font-size: 40px;
+    text-align: center;
+    height: 47px;
+    border: 4px;
     border-style: double;
     border-color: var(--light);
     color: var(--light);
 }
 
 .sidebar {
+    position: fixed;
+    margin-left: 10px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .sideLink {
-    border: 2px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 4px;
     border-style: double;
     border-color: var(--light);
     color: var(--light);
+}
+
+main {
+    margin-left: 100px;
+    height: 100vh;
+}
+
+.panel {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#selfie {
+    display: block;
+    max-width: 275px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border: 4px;
+    border-style: double;
+    border-color: var(--light);
+}
+
+.tBox {
+    display: block; 
+    height: 250px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.tBox h1 {
+    font-size: 200%;
+}
+
+.tBox h2 {
+    font-size: 150%;
+}
+
+.tBox h3 {
+    margin-top: 5px;
+}
+
+.conLink {
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 4px;
+    border-style: double;
+    border-color: var(--light);
+    color: var(--light);
+    text-align: center;
+}
+
+.conList {
+    font-size: 250%;
+    display: flex;
+    flex-direction: column;
 }
