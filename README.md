@@ -8,10 +8,10 @@
   Updated the style.css sheet as the new tags needed to be re-linked.  Deleted empty lines and consolidated rules to enhance readability.
 
 ### GitHub Repo
-The full repo is located at: https://github.com/Hezakai/Horiseon-Refactor
+The full repo is located at: https://github.com/Hezakai/ESG-Portfolio
 
 ### Live Page
-You can view the live page at: https://hezakai.github.io/Horiseon-Refactor
+You can view the live page at: https://hezakai.github.io/ESG-Portfolio/
 
 ### Screenshot
-![Screenshot of deployed website](assets/images/horiseonss.PNG)
+![Screenshot of deployed website](./assets/images/portfolioss.PNG)
